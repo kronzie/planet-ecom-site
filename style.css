@@ -9,6 +9,7 @@
 
 body {
     background-color: rgb(74, 74, 74);
+    overflow: hidden;
 }
 
 header{
@@ -46,4 +47,47 @@ a {
     background-color: rgb(74, 74, 74);
     color: aliceblue;
     border: 3px solid aliceblue;
+}
+
+main {
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 60px;
+    margin-left: 40px;
+}
+
+img {
+    height: 300px;
+}
+
+.buynow {
+    font-size: 25px;
+    color: rgb(74, 74, 74);
+    border: none;
+    border-radius: 25px;
+    padding: 8px 18px;
+}
+
+.buynow:hover{
+    color: aliceblue;
+    background-color: rgb(57, 57, 57);
+
+}
+
+.left {
+    flex: 1;
+}
+
+.mid {
+    flex: 2;
+}
+
+.right {
+    flex: 1;
 }
